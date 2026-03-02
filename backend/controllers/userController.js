@@ -17,6 +17,7 @@ export async function Register(req, res) {
         success: false,
         message: "All fields are required",
       });
+      
     }
 
     if (!validator.isEmail(email)) {
