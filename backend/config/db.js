@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-import dotenv from '../QUIZ APP/dotenv';
+import dotenv from "dotenv";
 
 dotenv.config(); 
 export const connectDb=async()=>{

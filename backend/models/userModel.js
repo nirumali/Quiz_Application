@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import { trim } from "validator";
+import  validator  from "validator";
 
 const userSchema=new mongoose.Schema({
     name:{
@@ -19,7 +19,7 @@ const userSchema=new mongoose.Schema({
     },
 },
 {
-    timestamps:true
+    timestamps:true //it adds time related fields to our document
 });
 
 export default mongoose.model("User", userSchema);
